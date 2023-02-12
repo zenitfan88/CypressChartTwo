@@ -1,6 +1,6 @@
 const selector = require('../fixtures/selector.json');
 
-describe ('test first page is visible', () => {
+describe ('test first page', () => {
 
     beforeEach(() => {
         cy.visit('/');
@@ -28,7 +28,7 @@ describe ('test first page is visible', () => {
     });
 
     
-    it('time is blocked', () => {
+    it('time not blocked', () => {
         cy.currentTime().then((value) => {
         cy.get(selector.timeBlocked).each((el) => {
             cy.wrap(el).invoke('attr', selector.timeSeansNumber)
