@@ -1,0 +1,24 @@
+{
+    "titlePage": ".page-header__title",
+    "dataTodayField":".page-nav__day_today",
+    "dataNumber":"data-time-stamp",
+    "timeSeans":"[class='movie-seances__time']",
+    "timeSeansNumber":"data-seance-time-stamp",
+    "timeBlocked":".acceptin-button-disabled",
+    "passwordField":"[for='pwd'] > .login__input",
+    "loginField":"[for='email'] > .login__input",
+    "loginButton":".login__button",
+    "schemeHall":".buying-scheme__row",
+    "selectedPlace":"[class = 'buying-scheme__chair buying-scheme__chair_standart buying-scheme__chair_selected']",
+    "nameMovie":"[draggable='true'][data-film-id='93'] > .conf-step__movie-title",
+    "movieField":".movie",
+    "reserveButton":"[class = 'acceptin-button']",
+    "codeButton":"[class = 'acceptin-button']",
+    "qrCode":".ticket__info-qr",
+    "nameFilmCheck":"[class = 'ticket__details ticket__title']"
+
+
+
+
+
+}
