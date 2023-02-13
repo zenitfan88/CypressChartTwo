@@ -83,4 +83,4 @@ Cypress.Commands.add("selectPlace", () => {
           return true
       }
     });
-})
+});

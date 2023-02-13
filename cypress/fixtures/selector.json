@@ -16,9 +16,4 @@
     "codeButton":"[class = 'acceptin-button']",
     "qrCode":".ticket__info-qr",
     "nameFilmCheck":"[class = 'ticket__details ticket__title']"
-
-
-
-
-
 }

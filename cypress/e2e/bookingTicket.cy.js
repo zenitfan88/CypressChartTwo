@@ -11,7 +11,7 @@ describe ('booking ticket', () => {
         cy.get(selector.nameMovie).invoke('text').then((text) => {
             const film = text;
             cy.visit("http://qamid.tmweb.ru/client/index.php");
-            cy.selectData(3);
+            cy.selectData(6);
             cy.contains(selector.movieField, film).find(selector.timeSeans).eq(0).click();
             cy.selectPlace();
             cy.selectPlace();
