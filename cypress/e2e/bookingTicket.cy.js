@@ -16,13 +16,10 @@ describe ('booking ticket', () => {
             cy.selectPlace();
             cy.selectPlace();
             cy.get(selector.reserveButton).click();
-            cy.wait(1000);
-            cy.get(selector.codeButton).click();
+            cy.contains(selector.codeButton).click();
             cy.get(selector.nameFilmCheck).should('have.text', film)
         });
         cy.get(selector.qrCode).should('be.visible');  
-
-
     });
 
 });

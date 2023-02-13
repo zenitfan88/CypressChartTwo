@@ -13,7 +13,7 @@
     "nameMovie":"[draggable='true'][data-film-id='93'] > .conf-step__movie-title",
     "movieField":".movie",
     "reserveButton":"[class = 'acceptin-button']",
-    "codeButton":"[class = 'acceptin-button']",
+    "codeButton":"Получить код бронирования",
     "qrCode":".ticket__info-qr",
     "nameFilmCheck":"[class = 'ticket__details ticket__title']"
 }
