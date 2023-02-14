@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:dashboard": "cypress run --record --key 95f7cb76-2fcf-4d4e-b97c-5691df109d5c"
+    "test:dashboard": "cypress run --record --key 95f7cb76-2fcf-4d4e-b97c-5691df109d5c",
+    "test:ticket": "cypress run --spec 'cypress/e2e/bookingTicket.cy.js' -- record --key c2b5bd53-1a84-411a-828b-55a4dc1fc377",
+    "test:login": "cypress run --spec 'cypress/e2e/loginAdmin.cy.js' -- record --key c2b5bd53-1a84-411a-828b-55a4dc1fc377",
+    "test:parallel": "npm run test:ticket & npm run test:login"
   },
   "author": "zenitfan",
   "license": "ISC",
