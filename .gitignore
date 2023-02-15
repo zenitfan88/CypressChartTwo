@@ -3,3 +3,4 @@ cypress/downloads/
 cypress/screenshots/
 cypress/videos/
 package-lock.json
+jenkins.war
