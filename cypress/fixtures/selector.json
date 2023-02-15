@@ -10,7 +10,7 @@
     "loginButton":".login__button",
     "schemeHall":".buying-scheme__row",
     "selectedPlace":"[class = 'buying-scheme__chair buying-scheme__chair_standart buying-scheme__chair_selected']",
-    "nameMovie":"[draggable='true'][data-film-id='93'] > .conf-step__movie-title",
+    "nameMovie":"[draggable='true'][data-film-id='94'] > .conf-step__movie-title",
     "movieField":".movie",
     "reserveButton":"[class = 'acceptin-button']",
     "codeButton":"Получить код бронирования",

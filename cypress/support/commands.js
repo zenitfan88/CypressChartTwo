@@ -67,12 +67,12 @@ Cypress.Commands.add("selectPlace", () => {
     const min = 1;
     let maxRow;
     let maxSpot;
-    if (cy.get(selector.schemeHall).should('have.length', 3)) {
-      maxRow = 3;
-      maxSpot = 2;
-    } else {
+    if (cy.get(selector.schemeHall).should('have.length', 10)) {
       maxRow = 10;
       maxSpot = 10;
+    } else  {
+      maxRow = 3;
+      maxSpot = 2;
     };
     cy.waitUntil(function() {
       if (!Cypress.$(selector.selectedPlace).length) {
